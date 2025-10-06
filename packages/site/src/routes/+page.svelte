@@ -3,8 +3,9 @@
 </script>
 
 <div class="min-h-screen font-sans text-gray-800">
-  <div class="mx-auto max-w-6xl overflow-hidden rounded-xl bg-white ">
+  <div class="mx-auto max-w-6xl overflow-hidden rounded-xl bg-white">
     <!-- Header -->
+
     <div class="border-b px-8 py-6">
       <h1 class="text-4xl font-bold text-gray-900">Lauri Koivisto</h1>
       <p class="mt-1 text-lg text-gray-700">
@@ -12,10 +13,29 @@
       </p>
     </div>
 
+    <div class="grid grid-cols-[var(--left-side-width)_1fr] px-8 py-6">
+      <figure>
+        <img
+          src="./portrait1.jpg"
+          alt="my face"
+          class="h-40 w-40 rounded-full border border-gray-300 object-cover [object-position:40%_15%]"
+        />
+      </figure>
+      <section>
+        <p class="leading-relaxed text-gray-700">
+          Data & AI Engineer with experience designing and implementing AI-powered solutions
+          utilizing natural language and translation. Strong foundation in Python, data engineering,
+          and full-stack development using modern frameworks. Skilled at applying machine learning
+          and LLM technologies to build practical, scalable systems that deliver measurable value.
+          Experienced in cross-functional collaboration and iterative development in agile
+          environments.
+        </p>
+      </section>
+    </div>
     <!-- Body -->
-    <div class="grid grid-cols-1 md:grid-cols-3">
+    <div class="grid grid-cols-[var(--left-side-width)_1fr]">
       <!-- Left column -->
-      <aside class="space-y-8 border-r p-8 md:col-span-1">
+      <aside class="space-y-8 border-r p-8">
         <!-- Contact -->
         <section>
           <h2 class="mb-3 border-b pb-1 text-xl font-semibold text-gray-900">Contact</h2>
@@ -69,18 +89,8 @@
       </aside>
 
       <!-- Right column -->
-      <main class="space-y-10 p-8 md:col-span-2">
+      <main class="space-y-10 p-8">
         <!-- Profile -->
-        <section>
-          <p class="leading-relaxed text-gray-700">
-            Data & AI Engineer with experience designing and implementing AI-powered solutions
-            utilizing natural language and translation. Strong foundation in Python, data
-            engineering, and full-stack development using modern frameworks. Skilled at applying
-            machine learning and LLM technologies to build practical, scalable systems that deliver
-            measurable value. Experienced in cross-functional collaboration and iterative
-            development in agile environments.
-          </p>
-        </section>
 
         <!-- Work Experience -->
         <section>
@@ -189,3 +199,9 @@
     </div>
   </div>
 </div>
+
+<style lang="postcss">
+  :root {
+    --left-side-width: 320px;
+  }
+</style>
