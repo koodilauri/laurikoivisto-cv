@@ -2,10 +2,10 @@
   // No script logic needed for static content
 </script>
 
-<div class="min-h-screen bg-gray-50 p-6 font-sans text-gray-800 md:p-12">
-  <div class="mx-auto max-w-6xl overflow-hidden rounded-xl bg-white shadow-md">
+<div class="min-h-screen font-sans text-gray-800">
+  <div class="mx-auto max-w-6xl overflow-hidden rounded-xl bg-white ">
     <!-- Header -->
-    <div class="border-b bg-gray-100 px-8 py-6">
+    <div class="border-b px-8 py-6">
       <h1 class="text-4xl font-bold text-gray-900">Lauri Koivisto</h1>
       <p class="mt-1 text-lg text-gray-700">
         Data & AI Engineer | Python • LLMs • Full-Stack Development
@@ -15,7 +15,7 @@
     <!-- Body -->
     <div class="grid grid-cols-1 md:grid-cols-3">
       <!-- Left column -->
-      <aside class="space-y-8 border-r bg-gray-50 p-8 md:col-span-1">
+      <aside class="space-y-8 border-r p-8 md:col-span-1">
         <!-- Contact -->
         <section>
           <h2 class="mb-3 border-b pb-1 text-xl font-semibold text-gray-900">Contact</h2>
@@ -72,7 +72,6 @@
       <main class="space-y-10 p-8 md:col-span-2">
         <!-- Profile -->
         <section>
-          <h2 class="mb-3 border-b pb-1 text-2xl font-semibold text-gray-900">Profile</h2>
           <p class="leading-relaxed text-gray-700">
             Data & AI Engineer with experience designing and implementing AI-powered solutions
             utilizing natural language and translation. Strong foundation in Python, data
