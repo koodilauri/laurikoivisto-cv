@@ -2,8 +2,8 @@
   // No script logic needed for static content
 </script>
 
-<div class="min-h-screen font-sans text-gray-800">
-  <div class="mx-auto max-w-6xl overflow-hidden rounded-xl bg-white">
+<div class="min-h-screen text-gray-800">
+  <div class="page">
     <!-- Body -->
     <div class="grid grid-cols-[var(--left-side-width)_auto_1fr]">
       <!-- Left column -->
@@ -48,32 +48,6 @@
               </p>
             </div>
           </div>
-        </section>
-
-        <!-- Skills -->
-        <section>
-          <h2 class="mb-3 pb-1 text-xl font-semibold text-gray-900">Skills</h2>
-          <ul class="space-y-2 text-sm">
-            <li>
-              <strong>Languages & Frameworks:</strong> Python, JavaScript, TypeScript, SQL, Node.js,
-              React
-            </li>
-            <li>
-              <strong>AI / ML Tools:</strong> TensorFlow, Keras, scikit-learn, LangChain
-            </li>
-            <li>
-              <strong>Cloud & DevOps:</strong> Docker, AWS, Azure, IBM Cloud
-            </li>
-            <li>
-              <strong>Data & Databases:</strong> Pandas, PostgreSQL
-            </li>
-            <li>
-              <strong>LLM / NLP:</strong> Prompt design, evaluation pipelines, conversational AI
-            </li>
-            <li>
-              <strong>Other:</strong> Agile, Git, REST APIs
-            </li>
-          </ul>
         </section>
       </aside>
 
@@ -126,7 +100,55 @@
                 </p>
               </ul>
             </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+  <div class="page">
+    <!-- Body -->
+    <div class="grid grid-cols-[var(--left-side-width)_auto_1fr]">
+      <!-- Left column -->
 
+      <aside class="space-y-8 p-8">
+        <!-- Skills -->
+        <section>
+          <h2 class="mb-3 pb-1 text-xl font-semibold text-gray-900">Skills</h2>
+          <ul class="space-y-2 text-sm">
+            <li>
+              <strong>Languages & Frameworks:</strong> Python, JavaScript, TypeScript, SQL, Node.js,
+              React
+            </li>
+            <li>
+              <strong>AI / ML Tools:</strong> TensorFlow, Keras, scikit-learn, LangChain
+            </li>
+            <li>
+              <strong>Cloud & DevOps:</strong> Docker, AWS, Azure, IBM Cloud
+            </li>
+            <li>
+              <strong>Data & Databases:</strong> Pandas, PostgreSQL
+            </li>
+            <li>
+              <strong>LLM / NLP:</strong> Prompt design, evaluation pipelines, conversational AI
+            </li>
+            <li>
+              <strong>Other:</strong> Agile, Git, REST APIs
+            </li>
+          </ul>
+        </section>
+      </aside>
+
+      <!-- Divider -->
+      <div
+        aria-hidden="true"
+        class="h-[90%] w-[3px] self-center justify-self-center rounded-full bg-gray-400/70"
+      ></div>
+
+      <!-- Right column -->
+      <main class="space-y-10 p-8">
+        <!-- Work Experience -->
+        <section>
+          <div class="space-y-6">
             <!-- Thesis Worker -->
             <div>
               <h3 class="text-lg font-semibold">Thesis Worker, Aalto University</h3>
@@ -199,7 +221,11 @@
 </div>
 
 <style lang="postcss">
+  @reference "#app.css";
   :root {
     --left-side-width: 320px;
+  }
+  .page {
+    @apply mx-[auto] flex min-h-[29.7cm] max-w-[800px] flex-col items-center px-4 text-sm md:px-16;
   }
 </style>

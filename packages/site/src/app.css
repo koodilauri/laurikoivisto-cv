@@ -4,12 +4,12 @@
 
 @theme {
   --font-heading: Nunito, sans-serif;
-  --font-ibm: IBM Plex Sans, sans-serif;
+  --font-sans: IBM Plex Sans, sans-serif;
 }
 
 @layer base {
   html {
-    @apply font-ibm;
+    @apply font-sans;
   }
 
   h1,
