@@ -5,10 +5,10 @@
 <div class="min-h-screen font-sans text-gray-800">
   <div class="mx-auto max-w-6xl overflow-hidden rounded-xl bg-white">
     <!-- Body -->
-    <div class="grid grid-cols-[var(--left-side-width)_1fr]">
+    <div class="grid grid-cols-[var(--left-side-width)_auto_1fr]">
       <!-- Left column -->
 
-      <aside class="space-y-8 border-r p-8">
+      <aside class="space-y-8 p-8">
         <figure class="flex items-center justify-center">
           <img
             src="./portrait1.jpg"
@@ -77,13 +77,19 @@
         </section>
       </aside>
 
+      <!-- Divider -->
+      <div
+        aria-hidden="true"
+        class="h-[90%] w-[3px] self-center justify-self-center rounded-full bg-gray-400/70"
+      ></div>
+
       <!-- Right column -->
       <main class="space-y-10 p-8">
         <!-- Profile -->
         <section>
           <!-- Header -->
           <div class=" py-6">
-            <h1 class="text-4xl font-bold text-gray-900">Lauri Koivisto</h1>
+            <h1 class="text-6xl font-bold text-gray-900">Lauri Koivisto</h1>
             <p class="mt-1 text-lg text-gray-700">
               Data & AI Engineer | Python • LLMs • Full-Stack Development
             </p>

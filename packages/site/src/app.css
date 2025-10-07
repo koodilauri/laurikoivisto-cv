@@ -1,2 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+@theme {
+  --font-heading: Nunito, sans-serif;
+  --font-ibm: IBM Plex Sans, sans-serif;
+}
+
+@layer base {
+  html {
+    @apply font-ibm;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
