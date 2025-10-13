@@ -3,13 +3,13 @@
 </script>
 
 <div class="min-h-screen text-gray-800">
-  <div class="page">
+  <div class="page pt-8">
     <!-- Body -->
     <div class="grid grid-cols-[var(--left-side-width)_auto_1fr]">
       <!-- Left column -->
 
       <aside class="space-y-8 p-8">
-        <figure class="flex items-center justify-center pt-6">
+        <figure class="flex items-center justify-center pb-6">
           <img
             src="./portrait1.jpg"
             alt="my face"
@@ -24,28 +24,6 @@
             <li>📧 XXX@gmail.com</li>
             <li>📍 Helsinki, Finland</li>
           </ul>
-        </section>
-
-        <!-- Education -->
-        <section>
-          <h2 class="mb-3 pb-1 text-xl font-extrabold uppercase text-gray-900">Education</h2>
-          <div class="space-y-3">
-            <div>
-              <h3 class="font-semibold">M.Sc. (Technology), Speech and Signal Processing</h3>
-              <p class="text-sm text-gray-600">Aalto University, 2017 – 2025</p>
-              <p class="mt-1 text-gray-700">
-                Studied speech recognition, natural language processing, and machine learning
-                methods for audio and linguistic data.
-              </p>
-            </div>
-            <div>
-              <h3 class="font-semibold">B.Sc. (Technology), Automation and Systems Technology</h3>
-              <p class="text-sm text-gray-600">Aalto University, 2014 – 2017</p>
-              <p class="mt-1 text-gray-700">
-                Studied control systems, robotics, and embedded automation.
-              </p>
-            </div>
-          </div>
         </section>
 
         <!-- Skills -->
@@ -89,7 +67,7 @@
         <!-- Profile -->
         <section>
           <!-- Header -->
-          <div class=" py-6">
+          <div class=" pb-6">
             <h1 class="ml-[-2px] text-5xl font-bold text-gray-900">Lauri Koivisto</h1>
             <p class="mt-1 pl-[1px] text-lg text-gray-700">Data & AI Engineer</p>
             <p class="mt-1 pl-[1px] text-sm text-gray-700">
@@ -137,48 +115,34 @@
       </main>
     </div>
   </div>
-  <div class="page">
+  <div class="page pt-8">
     <!-- Body -->
     <div class="grid grid-cols-[var(--left-side-width)_auto_1fr]">
       <!-- Left column -->
 
       <aside class="space-y-8 p-8">
-        <!-- Projects -->
+        <!-- Education -->
         <section>
-          <h2 class="mb-3 pb-1 text-2xl font-semibold text-gray-900">Projects</h2>
-
-          <div class="space-y-4">
+          <h2 class="mb-3 pb-1 text-xl font-extrabold uppercase text-gray-900">Education</h2>
+          <div class="space-y-3">
             <div>
-              <a
-                href="https://koodilauri.github.io/"
-                class="font-medium text-blue-600 hover:underline">Personal Portfolio</a
-              >
-              — Developed a Next.js + Tailwind CSS portfolio site to present projects and experience
-              in a visually appealing format.
+              <h3 class="font-semibold">M.Sc. (Technology), Speech and Signal Processing</h3>
+              <p class="text-sm text-gray-600">Aalto University, 2017 – 2025</p>
+              <p class="mt-1 text-gray-700">
+                Studied speech recognition, natural language processing, and machine learning
+                methods for audio and linguistic data.
+              </p>
             </div>
             <div>
-              <a
-                href="https://github.com/koodilauri/speaker-verification"
-                class="font-medium text-blue-600 hover:underline">Speaker Verification (Thesis)</a
-              >
-              — Trained a CNN model for speaker recognition with voice features like jitter & shimmer.
-            </div>
-            <div>
-              <a
-                href="http://go.vaisala.com/keravaradar/"
-                class="font-medium text-blue-600 hover:underline">Vaisala Radar Web App</a
-              >
-              — Developed backend and frontend with TypeScript, React, and Node.js.
-            </div>
-            <div>
-              <a
-                href="https://d386g19k2b21z4.cloudfront.net/"
-                class="font-medium text-blue-600 hover:underline">Speedrun Fansite</a
-              >
-              — Created a React/Node project for submitting and managing video game speedruns.
+              <h3 class="font-semibold">B.Sc. (Technology), Automation and Systems Technology</h3>
+              <p class="text-sm text-gray-600">Aalto University, 2014 – 2017</p>
+              <p class="mt-1 text-gray-700">
+                Studied control systems, robotics, and embedded automation.
+              </p>
             </div>
           </div>
         </section>
+        
       </aside>
 
       <!-- Divider -->
@@ -218,7 +182,44 @@
           </div>
         </section>
       </main>
+      <!-- Projects -->
+      <section class="p-8 col-span-3">
+        <h2 class="mb-3 pb-1 text-[22px] font-extrabold uppercase text-gray-900">Projects</h2>
+
+        <div class="space-y-4 pl-[1.5px]">
+          <div>
+            <a
+              href="https://koodilauri.github.io/"
+              class="font-medium text-blue-600 hover:underline">Personal Portfolio</a
+            >
+            — Developed a Next.js + Tailwind CSS portfolio site to present projects and experience
+            in a visually appealing format.
+          </div>
+          <div>
+            <a
+              href="https://github.com/koodilauri/speaker-verification"
+              class="font-medium text-blue-600 hover:underline">Speaker Verification (Thesis)</a
+            >
+            — Trained a CNN model for speaker recognition with voice features like jitter & shimmer.
+          </div>
+          <div>
+            <a
+              href="http://go.vaisala.com/keravaradar/"
+              class="font-medium text-blue-600 hover:underline">Vaisala Radar Web App</a
+            >
+            — Developed backend and frontend with TypeScript, React, and Node.js.
+          </div>
+          <div>
+            <a
+              href="https://d386g19k2b21z4.cloudfront.net/"
+              class="font-medium text-blue-600 hover:underline">Speedrun Fansite</a
+            >
+            — Created a React/Node project for submitting and managing video game speedruns.
+          </div>
+        </div>
+      </section>
     </div>
+
   </div>
 </div>
 
@@ -228,6 +229,15 @@
     --left-side-width: 256px;
   }
   .page {
-    @apply mx-[auto] flex min-h-[29.7cm] max-w-[800px] flex-col items-center px-4 text-sm md:px-16;
+    @apply mx-[auto] flex min-h-[29.7cm] max-w-[800px] flex-col items-center px-4 text-sm md:px-8;
+  }
+  @page {
+    size: A4;
+  }
+  @media print {
+    .page {
+      height: 29.7cm;
+      width: 21cm;
+    }
   }
 </style>
