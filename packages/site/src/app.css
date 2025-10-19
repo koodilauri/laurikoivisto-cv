@@ -5,6 +5,7 @@
 @theme {
   --font-heading: Nunito, sans-serif;
   --font-sans: IBM Plex Sans, sans-serif;
+  --color-divider-gray: #b7bdc7;
 }
 
 @layer base {

@@ -8,17 +8,18 @@
     <div class="grid grid-cols-[var(--left-side-width)_auto_1fr]">
       <!-- Left column -->
 
-      <aside class="space-y-8 p-8">
-        <figure class="flex items-center justify-center pb-6">
+      <aside class="space-y-8">
+        <figure class="!m-0 flex items-center justify-center pb-8">
           <img
             src="./portrait1.jpg"
             alt="my face"
             class=" h-[192px] w-[192px] rounded-full object-cover [object-position:40%_15%]"
           />
         </figure>
+
         <!-- Contact -->
-        <section>
-          <h2 class="mb-3 pb-1 text-xl font-extrabold uppercase text-gray-900">Contact</h2>
+        <section class="px-8">
+          <h2 class="mb-2 text-xl font-extrabold uppercase text-gray-900">Contact</h2>
           <ul class="space-y-2 text-gray-700">
             <li>📞 +358 XXX</li>
             <li>📧 XXX@gmail.com</li>
@@ -27,8 +28,8 @@
         </section>
 
         <!-- Skills -->
-        <section>
-          <h2 class="mb-3 pb-1 text-xl font-extrabold uppercase text-gray-900">Skills</h2>
+        <section class="px-8">
+          <h2 class=" mb-2 text-xl font-extrabold uppercase text-gray-900">Skills</h2>
           <ul class="space-y-2 text-sm">
             <li>
               <strong>Finnish:</strong> Native <br /> <strong>English:</strong> Fluent
@@ -59,11 +60,11 @@
       <!-- Divider -->
       <div
         aria-hidden="true"
-        class="h-[90%] w-[3px] self-center justify-self-center rounded-full bg-gray-400/70"
+        class="h-[90%] w-[3px] self-center justify-self-center rounded-full bg-transparent"
       ></div>
 
       <!-- Right column -->
-      <main class="space-y-6 p-8">
+      <main class="space-y-6 px-0 pr-8 pt-8">
         <!-- Profile -->
         <section>
           <!-- Header -->
@@ -74,7 +75,7 @@
               Python • LLMs • Full-Stack Development
             </p>
           </div>
-          <p class=" pl-[1.5px] text-gray-700">
+          <p class=" pl-[1.5px] italic text-gray-700">
             Data & AI Engineer with expertise in natural language processing and AI-powered solution
             design. Skilled in Python, data engineering, and full-stack development with modern
             frameworks such as React, Node.js, and Docker. Experienced in applying machine learning
@@ -85,14 +86,16 @@
         </section>
         <!-- Work Experience -->
         <section>
-          <h2 class="mb-3 pb-1 text-[22px] font-extrabold uppercase text-gray-900">
+          <h2 class=" text-[22px] font-extrabold uppercase text-gray-900">
             Selected Work Experience
           </h2>
+          <hr class="border-t-3 mb-3 border-gray-600" />
 
           <div class="space-y-6 pl-[1px]">
             <!-- IBM Finland -->
             <div>
               <h3 class="text-lg font-bold">AI and Data Engineer, IBM Finland</h3>
+
               <p class="text-sm text-gray-600">May 2022 – July 2025</p>
               <div class="mt-2 space-y-2 pl-[1.5px] text-gray-700">
                 <p class=" text-gray-700">
@@ -149,7 +152,8 @@
       </section>
       <!-- Education -->
       <section class="p-8">
-        <h2 class="mb-3 pb-1 text-[22px] font-extrabold uppercase text-gray-900">Education</h2>
+        <h2 class="text-[22px] font-extrabold uppercase text-gray-900">Education</h2>
+        <hr class="border-t-3 -ml-0.5 mb-3 border-gray-600" />
         <div class="space-y-4 pl-[1.5px]">
           <div>
             <h3 class="font-bold">M.Sc. (Technology), Speech and Signal Processing</h3>
@@ -171,7 +175,8 @@
 
       <!-- Projects -->
       <section class="p-8">
-        <h2 class="mb-3 pb-1 text-[22px] font-extrabold uppercase text-gray-900">Projects</h2>
+        <h2 class="text-[22px] font-extrabold uppercase text-gray-900">Projects</h2>
+        <hr class="border-t-3 -ml-0.5 mb-3 border-gray-600" />
 
         <div class="space-y-4 pl-[1.5px]">
           <div>
