@@ -142,7 +142,6 @@
             </div>
           </div>
         </section>
-        
       </aside>
 
       <!-- Divider -->
@@ -183,7 +182,7 @@
         </section>
       </main>
       <!-- Projects -->
-      <section class="p-8 col-span-3">
+      <section class="col-span-3 p-8">
         <h2 class="mb-3 pb-1 text-[22px] font-extrabold uppercase text-gray-900">Projects</h2>
 
         <div class="space-y-4 pl-[1.5px]">
@@ -192,8 +191,11 @@
               href="https://koodilauri.github.io/"
               class="font-medium text-blue-600 hover:underline">Personal Portfolio</a
             >
-            — Developed a Next.js + Tailwind CSS portfolio site to present projects and experience
-            in a visually appealing format.
+            — Developed a Next.js + Tailwind CSS portfolio site to present projects and experience in
+            a visually appealing format.
+            <a href="https://github.com/koodilauri/koodilauri.github.io" class="hover:underline"
+              >https://github.com/koodilauri/koodilauri.github.io</a
+            >
           </div>
           <div>
             <a
@@ -201,6 +203,9 @@
               class="font-medium text-blue-600 hover:underline">Speaker Verification (Thesis)</a
             >
             — Trained a CNN model for speaker recognition with voice features like jitter & shimmer.
+            <a href="https://github.com/koodilauri/speaker-verification" class="hover:underline"
+              >https://github.com/koodilauri/speaker-verification</a
+            >
           </div>
           <div>
             <a
@@ -208,6 +213,10 @@
               class="font-medium text-blue-600 hover:underline">Vaisala Radar Web App</a
             >
             — Developed backend and frontend with TypeScript, React, and Node.js.
+            <a
+              href="https://github.com/koodilauri/weather-radar-snapshot-server"
+              class="hover:underline">https://github.com/koodilauri/weather-radar-snapshot-server</a
+            >
           </div>
           <div>
             <a
@@ -215,11 +224,14 @@
               class="font-medium text-blue-600 hover:underline">Speedrun Fansite</a
             >
             — Created a React/Node project for submitting and managing video game speedruns.
+            <a
+              href="https://github.com/koodilauri/monster-hunter-app-backend"
+              class="hover:underline">https://github.com/koodilauri/monster-hunter-app-backend</a
+            >
           </div>
         </div>
       </section>
     </div>
-
   </div>
 </div>
 
