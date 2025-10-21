@@ -86,7 +86,7 @@
             </li>
             <li>
               <strong>Languages & Frameworks:</strong> Python, JavaScript, TypeScript, SQL, Node.js,
-              React
+              React, Svelte
             </li>
             <li>
               <strong>AI / ML Tools:</strong> TensorFlow, Keras, scikit-learn, LangChain
