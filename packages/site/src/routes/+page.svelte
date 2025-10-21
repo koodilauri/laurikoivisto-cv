@@ -22,67 +22,59 @@
         <!-- Contact -->
         <section class="px-8">
           <h2 class="mb-2 text-xl font-extrabold uppercase text-gray-900">Contact</h2>
-          <ul class="space-y-2 text-gray-700">
-            <li class="flex items-center gap-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                class="h-4 w-4"
-                ><path
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
-                /></svg
-              >
-              {cv_phone}
-            </li>
-            <li class="flex items-center gap-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
+          <address class="grid grid-cols-[auto_1fr] items-center gap-x-1.5 gap-y-1 text-gray-700">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="h-4 w-4"
+              ><path
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="lucide lucide-mail-icon lucide-mail h-4 w-4"
-                ><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" /><rect
-                  x="2"
-                  y="4"
-                  width="20"
-                  height="16"
-                  rx="2"
-                /></svg
-              >
-              {cv_email}
-            </li>
-            <li class="flex items-center gap-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                class="h-4 w-4"
-                ><g
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  ><path
-                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
-                  /><circle cx="12" cy="10" r="3" /></g
-                ></svg
-              > Helsinki, Finland
-            </li>
-          </ul>
+                stroke-width="2"
+                d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+              /></svg
+            ><a href={`tel:${cv_phone}`}>{cv_phone} </a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-mail-icon lucide-mail h-4 w-4"
+              ><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" /><rect
+                x="2"
+                y="4"
+                width="20"
+                height="16"
+                rx="2"
+              /></svg
+            ><a href={`mailto:${cv_email}`}>{cv_email}</a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              class="h-4 w-4"
+              ><g
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                ><path
+                  d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                /><circle cx="12" cy="10" r="3" /></g
+              ></svg
+            > <span class="not-italic">Helsinki, Finland</span>
+          </address>
         </section>
 
         <!-- Skills -->
@@ -229,6 +221,39 @@
                 features such as jitter and shimmer can improve speaker recognition.
               </p>
             </div>
+
+            <!-- Web Developer -->
+            <div>
+              <h3 class="text-lg font-bold">Web Developer — Vaisala</h3>
+              <p class="flex items-center gap-1.5 text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="h-3.5 w-3.5"
+                  ><g
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    ><path d="M8 2v4m8-4v4" /><rect
+                      width="18"
+                      height="18"
+                      x="3"
+                      y="4"
+                      rx="2"
+                    /><path d="M3 10h18" /></g
+                  ></svg
+                >June 2018 – Sep 2018
+              </p>
+              <p class="mt-2 pl-[1.5px] text-gray-700">
+                Developed backend and frontend solutions for the Weather Radar team using
+                TypeScript, React, and Node.js. Integrated image export functionality from IRIS
+                Focus to enable radar image display on go.vaisala.com/keravaradar.
+              </p>
+            </div>
           </div>
         </section>
       </main>
@@ -237,39 +262,6 @@
   <div class="page pt-8">
     <!-- Body -->
     <div class="">
-      <!-- Work Experience -->
-      <section class="p-8">
-        <div class="space-y-6 pl-[1px]">
-          <!-- Web Developer -->
-          <div>
-            <h3 class="text-lg font-bold">Web Developer — Vaisala</h3>
-            <p class="flex items-center gap-1.5 text-sm text-gray-600">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                class="h-3.5 w-3.5"
-                ><g
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  ><path d="M8 2v4m8-4v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path
-                    d="M3 10h18"
-                  /></g
-                ></svg
-              >June 2018 – Sep 2018
-            </p>
-            <p class="mt-2 pl-[1.5px] text-gray-700">
-              Developed backend and frontend solutions for the Weather Radar team using TypeScript,
-              React, and Node.js. Integrated image export functionality from IRIS Focus to enable
-              radar image display on go.vaisala.com/keravaradar.
-            </p>
-          </div>
-        </div>
-      </section>
       <!-- Education -->
       <section class="p-8">
         <h2 class="text-[22px] font-extrabold uppercase text-gray-900">Education</h2>
@@ -341,12 +333,26 @@
         <div class="space-y-4 pl-[1.5px]">
           <div>
             <a
+              href="https://github.com/koodilauri/laurikoivisto-cv"
+              class="font-medium text-blue-600 hover:underline">CV page</a
+            >
+            — Wrote a printable CV page with Svelte and Tailwind.
+            <a
+              href="https://github.com/koodilauri/laurikoivisto-cv"
+              class="font-semibold hover:underline"
+              >https://github.com/koodilauri/laurikoivisto-cv</a
+            >
+          </div>
+          <div>
+            <a
               href="https://koodilauri.github.io/"
               class="font-medium text-blue-600 hover:underline">Personal Portfolio</a
             >
             — Developed a Next.js + Tailwind CSS portfolio site to present projects and experience in
             a visually appealing format.
-            <a href="https://github.com/koodilauri/koodilauri.github.io" class="hover:underline"
+            <a
+              href="https://github.com/koodilauri/koodilauri.github.io"
+              class="font-semibold hover:underline"
               >https://github.com/koodilauri/koodilauri.github.io</a
             >
           </div>
@@ -356,7 +362,9 @@
               class="font-medium text-blue-600 hover:underline">Speaker Verification (Thesis)</a
             >
             — Trained a CNN model for speaker recognition with voice features like jitter & shimmer.
-            <a href="https://github.com/koodilauri/speaker-verification" class="hover:underline"
+            <a
+              href="https://github.com/koodilauri/speaker-verification"
+              class="font-semibold hover:underline"
               >https://github.com/koodilauri/speaker-verification</a
             >
           </div>
@@ -368,7 +376,8 @@
             — Developed backend and frontend with TypeScript, React, and Node.js.
             <a
               href="https://github.com/koodilauri/weather-radar-snapshot-server"
-              class="hover:underline">https://github.com/koodilauri/weather-radar-snapshot-server</a
+              class="font-semibold hover:underline"
+              >https://github.com/koodilauri/weather-radar-snapshot-server</a
             >
           </div>
           <div>
@@ -379,7 +388,8 @@
             — Created a React/Node project for submitting and managing video game speedruns.
             <a
               href="https://github.com/koodilauri/monster-hunter-app-backend"
-              class="hover:underline">https://github.com/koodilauri/monster-hunter-app-backend</a
+              class="font-semibold hover:underline"
+              >https://github.com/koodilauri/monster-hunter-app-backend</a
             >
           </div>
         </div>
