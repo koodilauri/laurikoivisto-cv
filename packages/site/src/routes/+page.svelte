@@ -1,5 +1,7 @@
 <script>
   // No script logic needed for static content
+  const cv_email = import.meta.env.VITE_CV_EMAIL
+  const cv_phone = import.meta.env.VITE_CV_PHONE
 </script>
 
 <div class="min-h-screen text-gray-800">
@@ -9,7 +11,7 @@
       <!-- Left column -->
 
       <aside class="space-y-8">
-        <figure class="!m-0 flex items-center justify-center pb-8">
+        <figure class="!m-0 flex items-center justify-center pb-8 pt-8">
           <img
             src="./portrait1.jpg"
             alt="my face"
@@ -21,9 +23,65 @@
         <section class="px-8">
           <h2 class="mb-2 text-xl font-extrabold uppercase text-gray-900">Contact</h2>
           <ul class="space-y-2 text-gray-700">
-            <li>📞 +358 XXX</li>
-            <li>📧 XXX@gmail.com</li>
-            <li>📍 Helsinki, Finland</li>
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="h-4 w-4"
+                ><path
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                /></svg
+              >
+              {cv_phone}
+            </li>
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-mail-icon lucide-mail h-4 w-4"
+                ><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" /><rect
+                  x="2"
+                  y="4"
+                  width="20"
+                  height="16"
+                  rx="2"
+                /></svg
+              >
+              {cv_email}
+            </li>
+            <li class="flex items-center gap-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="h-4 w-4"
+                ><g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  ><path
+                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                  /><circle cx="12" cy="10" r="3" /></g
+                ></svg
+              > Helsinki, Finland
+            </li>
           </ul>
         </section>
 
@@ -76,12 +134,12 @@
             </p>
           </div>
           <p class=" pl-[1.5px] italic text-gray-700">
-            Data & AI Engineer with expertise in natural language processing and AI-powered solution
-            design. Skilled in Python, data engineering, and full-stack development with modern
-            frameworks such as React, Node.js, and Docker. Experienced in applying machine learning
-            and LLM technologies to create scalable, production-ready systems. Strong background in
-            agile collaboration, iterative development, and delivering measurable business impact
-            through hands-on implementation.
+            » Data & AI Engineer with expertise in natural language processing and AI-powered
+            solution design. Skilled in Python, data engineering, and full-stack development with
+            modern frameworks such as React, Node.js, and Docker. Experienced in applying machine
+            learning and LLM technologies to create scalable, production-ready systems. Strong
+            background in agile collaboration, iterative development, and delivering measurable
+            business impact through hands-on implementation.
           </p>
         </section>
         <!-- Work Experience -->
@@ -94,15 +152,37 @@
           <div class="space-y-6 pl-[1px]">
             <!-- IBM Finland -->
             <div>
-              <h3 class="text-lg font-bold">AI and Data Engineer, IBM Finland</h3>
+              <h3 class="text-lg font-bold">AI and Data Engineer — IBM Finland</h3>
 
-              <p class="text-sm text-gray-600">May 2022 – July 2025</p>
+              <p class="flex items-center gap-1.5 text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="h-3.5 w-3.5"
+                  ><g
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    ><path d="M8 2v4m8-4v4" /><rect
+                      width="18"
+                      height="18"
+                      x="3"
+                      y="4"
+                      rx="2"
+                    /><path d="M3 10h18" /></g
+                  ></svg
+                > May 2022 – July 2025
+              </p>
               <div class="mt-2 space-y-2 pl-[1.5px] text-gray-700">
                 <p class=" text-gray-700">
-                  Worked on several AI-focused projects including translation evaluation, chatbot
-                  development, and image classification research. Designed and implemented datasets
-                  and prompt templates to assess multilingual LLM translation accuracy, leading to
-                  an 11% improvement over baseline models.
+                  For little over 3 years, I worked on several projects including AI translation,
+                  evaluation, chatbot development, and image classification research. Designed and
+                  implemented datasets and prompt templates to assess multilingual LLM translation
+                  accuracy, leading to an 11% improvement over baseline models.
                 </p>
                 <p class=" text-gray-700">
                   Built and deployed a full-stack translation interface integrating React, Node.js,
@@ -118,8 +198,30 @@
 
             <!-- Thesis Worker -->
             <div>
-              <h3 class="text-lg font-bold">Thesis Worker, Aalto University</h3>
-              <p class="text-sm text-gray-600">April 2020 – Sep 2020</p>
+              <h3 class="text-lg font-bold">Thesis Worker — Aalto University</h3>
+              <p class="flex items-center gap-1.5 text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="h-3.5 w-3.5"
+                  ><g
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    ><path d="M8 2v4m8-4v4" /><rect
+                      width="18"
+                      height="18"
+                      x="3"
+                      y="4"
+                      rx="2"
+                    /><path d="M3 10h18" /></g
+                  ></svg
+                > April 2020 – Sep 2020
+              </p>
               <p class="mt-2 pl-[1.5px] text-gray-700">
                 For my thesis project I researched if adding new features to a Convolutional Neural
                 Network (CNN) model would improve its accuracy in speaker recognition. I compared
@@ -140,8 +242,26 @@
         <div class="space-y-6 pl-[1px]">
           <!-- Web Developer -->
           <div>
-            <h3 class="text-lg font-bold">Web Developer, Vaisala</h3>
-            <p class="text-sm text-gray-600">June 2018 – Sep 2018</p>
+            <h3 class="text-lg font-bold">Web Developer — Vaisala</h3>
+            <p class="flex items-center gap-1.5 text-sm text-gray-600">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="h-3.5 w-3.5"
+                ><g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  ><path d="M8 2v4m8-4v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path
+                    d="M3 10h18"
+                  /></g
+                ></svg
+              >June 2018 – Sep 2018
+            </p>
             <p class="mt-2 pl-[1.5px] text-gray-700">
               Developed backend and frontend solutions for the Weather Radar team using TypeScript,
               React, and Node.js. Integrated image export functionality from IRIS Focus to enable
@@ -156,16 +276,56 @@
         <hr class="border-t-3 -ml-0.5 mb-3 border-gray-600" />
         <div class="space-y-4 pl-[1.5px]">
           <div>
-            <h3 class="font-bold">M.Sc. (Technology), Speech and Signal Processing</h3>
-            <p class="text-sm text-gray-600">Aalto University, 2017 – 2025</p>
+            <h3 class="font-bold">
+              M.Sc. (Technology), Speech and Signal Processing — Aalto University
+            </h3>
+            <p class="flex items-center gap-1.5 text-sm text-gray-600">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="h-3.5 w-3.5"
+                ><g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  ><path d="M8 2v4m8-4v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path
+                    d="M3 10h18"
+                  /></g
+                ></svg
+              >2017 – 2025
+            </p>
             <p class="mt-1 text-gray-700">
               Studied speech recognition, natural language processing, and machine learning methods
               for audio and linguistic data.
             </p>
           </div>
           <div>
-            <h3 class="font-bold">B.Sc. (Technology), Automation and Systems Technology</h3>
-            <p class="text-sm text-gray-600">Aalto University, 2014 – 2017</p>
+            <h3 class="font-bold">
+              B.Sc. (Technology), Automation and Systems Technology — Aalto University
+            </h3>
+            <p class="flex items-center gap-1.5 text-sm text-gray-600">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="h-3.5 w-3.5"
+                ><g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  ><path d="M8 2v4m8-4v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path
+                    d="M3 10h18"
+                  /></g
+                ></svg
+              >2014 – 2017
+            </p>
             <p class="mt-1 text-gray-700">
               Studied control systems, robotics, and embedded automation.
             </p>
