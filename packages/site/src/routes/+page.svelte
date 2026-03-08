@@ -131,7 +131,7 @@
             modern frameworks such as React, Node.js, and Docker. Experienced in applying machine
             learning and LLM technologies to create scalable, production-ready systems. Strong
             background in agile collaboration, iterative development, and delivering measurable
-            business impact through hands-on implementation.
+            business impact through client-led product development.
           </p>
         </section>
         <!-- Work Experience -->
@@ -171,7 +171,7 @@
               </p>
               <div class="mt-2 space-y-2 pl-[1.5px] text-gray-700">
                 <p class=" text-gray-700">
-                  For little over 3 years, I worked on several projects including AI translation,
+                  I worked for 3 years on several projects including AI translation,
                   evaluation, chatbot development, and image classification research. Designed and
                   implemented datasets and prompt templates to assess multilingual LLM translation
                   accuracy, leading to an 11% improvement over baseline models.
