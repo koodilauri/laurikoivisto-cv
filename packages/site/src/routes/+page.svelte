@@ -382,14 +382,14 @@
           </div>
           <div>
             <a
-              href="https://d386g19k2b21z4.cloudfront.net/"
-              class="font-medium text-blue-600 hover:underline">Speedrun Fansite</a
+              href="https://blog-writer.kata-weekly.workers.dev"
+              class="font-medium text-blue-600 hover:underline">Multi-Agent Post writer</a
             >
-            — Created a React/Node project for submitting and managing video game speedruns.
+            — Created a SvelteKit project for creating blog posts using multi-agent pipeline for research, fact-checking and editing.
             <a
-              href="https://github.com/koodilauri/monster-hunter-app-backend"
+              href="https://github.com/koodilauri/blog-writer.git"
               class="font-semibold hover:underline"
-              >https://github.com/koodilauri/monster-hunter-app-backend</a
+              >https://github.com/koodilauri/blog-writer.git</a
             >
           </div>
         </div>
