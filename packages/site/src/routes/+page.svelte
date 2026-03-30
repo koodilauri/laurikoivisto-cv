@@ -86,7 +86,7 @@
             </li>
             <li>
               <strong>Languages & Frameworks:</strong> Python, JavaScript, TypeScript, SQL, Node.js,
-              React, Svelte
+              React, SvelteKit
             </li>
             <li>
               <strong>AI / ML Tools:</strong> TensorFlow, Keras, scikit-learn, LangChain
@@ -120,18 +120,21 @@
           <!-- Header -->
           <div class=" pb-6">
             <h1 class="ml-[-2px] text-5xl font-bold text-gray-900">Lauri Koivisto</h1>
-            <p class="mt-1 pl-[1px] text-lg text-gray-700">Data & AI Engineer</p>
-            <p class="mt-1 pl-[1px] text-sm text-gray-700">
-              Python • LLMs • Full-Stack Development
+            <!-- <p class="mt-1 pl-[1px] text-lg text-gray-700">Data & AI Engineer</p> -->
+            <p class="mt-1 pl-[1px] text-lg text-gray-700">
+              Full-Stack Development • Python • LLMs
             </p>
           </div>
           <p class=" pl-[1.5px] italic text-gray-700">
-            » Data & AI Engineer with expertise in natural language processing and AI-powered
-            solution design. Skilled in Python, data engineering, and full-stack development with
-            modern frameworks such as React, Node.js, and Docker. Experienced in applying machine
-            learning and LLM technologies to create scalable, production-ready systems. Strong
-            background in agile collaboration, iterative development, and delivering measurable
-            business impact through client-led product development.
+            » Professional software developer with 4 years of experience, specialising in natural
+            language processing and AI-powered solution design. Skilled in Python, data engineering,
+            and full-stack development with React/Svelte, TypeScript, Node.js, and Tailwind.
+          </p>
+          <p class=" pl-[1.5px] italic text-gray-700">
+            » Experienced in applying machine learning and LLM technologies to create scalable,
+            production-ready systems. Strong background in agile collaboration, iterative
+            development, and delivering measurable business impact through client-led product
+            development.
           </p>
         </section>
         <!-- Work Experience -->
@@ -171,10 +174,10 @@
               </p>
               <div class="mt-2 space-y-2 pl-[1.5px] text-gray-700">
                 <p class=" text-gray-700">
-                  I worked for 3 years on several projects including AI translation,
-                  evaluation, chatbot development, and image classification research. Designed and
-                  implemented datasets and prompt templates to assess multilingual LLM translation
-                  accuracy, leading to an 11% improvement over baseline models.
+                  I worked for 3 years on several projects including AI translation, evaluation,
+                  chatbot development, and image classification research. Designed and implemented
+                  datasets and prompt templates to assess multilingual LLM translation accuracy,
+                  leading to an 11% improvement over baseline models.
                 </p>
                 <p class=" text-gray-700">
                   Built and deployed a full-stack translation interface integrating React, Node.js,
@@ -383,13 +386,14 @@
           <div>
             <a
               href="https://blog-writer.kata-weekly.workers.dev"
-              class="font-medium text-blue-600 hover:underline">Multi-Agent Post writer</a
+              class="font-medium text-blue-600 hover:underline">Multi-Agent Post Writer</a
             >
-            — Created a SvelteKit project for creating blog posts using multi-agent pipeline for research, fact-checking and editing.
+            — Minimal AI-assisted blog writer using multi-agent pipeline for research, fact-checking
+            and editing. SvelteKit, Cloudflare (Pages, R2), LangGraph (OpenAI/Ollama/Claude), Tailwind,
+            bits-ui, TypeScript
             <a
               href="https://github.com/koodilauri/blog-writer.git"
-              class="font-semibold hover:underline"
-              >https://github.com/koodilauri/blog-writer.git</a
+              class="font-semibold hover:underline">https://github.com/koodilauri/blog-writer.git</a
             >
           </div>
         </div>
