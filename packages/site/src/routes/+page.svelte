@@ -129,9 +129,7 @@
             » Professional software developer with 4 years of experience, specialising in natural
             language processing and AI-powered solution design. Skilled in Python, data engineering,
             and full-stack development with React/Svelte, TypeScript, Node.js, and Tailwind.
-          </p>
-          <p class=" pl-[1.5px] italic text-gray-700">
-            » Experienced in applying machine learning and LLM technologies to create scalable,
+            Experienced in applying machine learning and LLM technologies to create scalable,
             production-ready systems. Strong background in agile collaboration, iterative
             development, and delivering measurable business impact through client-led product
             development.
@@ -291,7 +289,7 @@
                     d="M3 10h18"
                   /></g
                 ></svg
-              >2017 – 2025
+              >2017 – 2026
             </p>
             <p class="mt-1 text-gray-700">
               Studied speech recognition, natural language processing, and machine learning methods
@@ -334,6 +332,19 @@
         <hr class="border-t-3 -ml-0.5 mb-3 border-gray-600" />
 
         <div class="space-y-4 pl-[1.5px]">
+          <div>
+            <a
+              href="https://blog-writer.kata-weekly.workers.dev"
+              class="font-medium text-blue-600 hover:underline">Multi-Agent Post Writer</a
+            >
+            — Minimal AI-assisted blog writer using multi-agent pipeline for research, fact-checking
+            and editing. SvelteKit, Cloudflare (Pages, R2), LangGraph (OpenAI/Ollama/Claude), Tailwind,
+            bits-ui, TypeScript
+            <a
+              href="https://github.com/koodilauri/blog-writer.git"
+              class="font-semibold hover:underline">https://github.com/koodilauri/blog-writer.git</a
+            >
+          </div>
           <div>
             <a
               href="https://github.com/koodilauri/laurikoivisto-cv"
@@ -381,19 +392,6 @@
               href="https://github.com/koodilauri/weather-radar-snapshot-server"
               class="font-semibold hover:underline"
               >https://github.com/koodilauri/weather-radar-snapshot-server</a
-            >
-          </div>
-          <div>
-            <a
-              href="https://blog-writer.kata-weekly.workers.dev"
-              class="font-medium text-blue-600 hover:underline">Multi-Agent Post Writer</a
-            >
-            — Minimal AI-assisted blog writer using multi-agent pipeline for research, fact-checking
-            and editing. SvelteKit, Cloudflare (Pages, R2), LangGraph (OpenAI/Ollama/Claude), Tailwind,
-            bits-ui, TypeScript
-            <a
-              href="https://github.com/koodilauri/blog-writer.git"
-              class="font-semibold hover:underline">https://github.com/koodilauri/blog-writer.git</a
             >
           </div>
         </div>
