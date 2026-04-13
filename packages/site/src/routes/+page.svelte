@@ -334,7 +334,7 @@
         <div class="space-y-4 pl-[1.5px]">
           <div>
             <a
-              href="https://blog-writer.kata-weekly.workers.dev"
+              href="https://blog-writer.kata-weekly.workers.dev/login"
               class="font-medium text-blue-600 hover:underline">Multi-Agent Post Writer</a
             >
             — Minimal AI-assisted blog writer using multi-agent pipeline for research, fact-checking
@@ -347,7 +347,7 @@
           </div>
           <div>
             <a
-              href="https://github.com/koodilauri/laurikoivisto-cv"
+              href="https://koodilauri.github.io/laurikoivisto-cv/"
               class="font-medium text-blue-600 hover:underline">CV page</a
             >
             — Wrote a printable CV page with Svelte and Tailwind.
