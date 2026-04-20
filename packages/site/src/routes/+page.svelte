@@ -338,8 +338,8 @@
               class="font-medium text-blue-600 hover:underline">Multi-Agent Post Writer</a
             >
             — Minimal AI-assisted blog writer using multi-agent pipeline for research, fact-checking
-            and editing. SvelteKit, Cloudflare (Pages, R2), LangGraph (OpenAI/Ollama/Claude), Tailwind,
-            bits-ui, TypeScript
+            and editing. SvelteKit, Cloudflare (Pages, R2, Durable Objects), LangGraph (OpenAI/Ollama/Claude),
+            Tailwind, bits-ui, TypeScript
             <a
               href="https://github.com/koodilauri/blog-writer.git"
               class="font-semibold hover:underline">https://github.com/koodilauri/blog-writer.git</a
