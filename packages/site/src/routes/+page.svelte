@@ -334,7 +334,18 @@
         <div class="space-y-4 pl-[1.5px]">
           <div>
             <a
-              href="https://blog-writer.kata-weekly.workers.dev/login"
+              href="https://dailykata.lako.workers.dev"
+              class="font-medium text-blue-600 hover:underline">Dailykata</a
+            >
+            — Daily coding kata app where users solve small TypeScript challenges in the browser and track their progress. TanStack Start (React SSR), TanStack Router, Drizzle ORM, Supabase (PostgreSQL), better-auth, CodeMirror 6, Tailwind, Cloudflare Workers
+            <a
+              href="https://github.com/koodilauri/dailykata"
+              class="font-semibold hover:underline">https://github.com/koodilauri/dailykata</a
+            >
+          </div>
+          <div>
+            <a
+              href="https://blog-writer.lako.workers.dev/login"
               class="font-medium text-blue-600 hover:underline">Multi-Agent Post Writer</a
             >
             — Minimal AI-assisted blog writer using multi-agent pipeline for research, fact-checking
