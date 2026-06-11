@@ -334,10 +334,21 @@
         <div class="space-y-4 pl-[1.5px]">
           <div>
             <a
+              href="https://github.com/koodilauri/FVTT-setup"
+              class="font-medium text-blue-600 hover:underline">FVTT Setup</a
+            >
+            — Deploys FoundryVTT to a remote EC2 host via Terraform and Ansible. Provisions the instance, configures S3 for asset storage and data backups, and manages the full lifecycle with a single shell script. Terraform, Ansible, AWS (EC2, S3, IAM)
+            <a
+              href="https://github.com/koodilauri/FVTT-setup"
+              class="font-semibold hover:underline">https://github.com/koodilauri/FVTT-setup</a
+            >
+          </div>
+          <div>
+            <a
               href="https://dailykata.lako.workers.dev"
               class="font-medium text-blue-600 hover:underline">Dailykata</a
             >
-            — Daily coding kata app where users solve small TypeScript challenges in the browser and track their progress. TanStack Start (React SSR), TanStack Router, Drizzle ORM, Supabase (PostgreSQL), better-auth, CodeMirror 6, Tailwind, Cloudflare Workers
+            — Daily coding kata app where users solve small TypeScript challenges in the browser and track their progress. TanStack, Drizzle ORM, Supabase (PostgreSQL), better-auth, CodeMirror, Tailwind, Cloudflare Workers
             <a
               href="https://github.com/koodilauri/dailykata"
               class="font-semibold hover:underline">https://github.com/koodilauri/dailykata</a
