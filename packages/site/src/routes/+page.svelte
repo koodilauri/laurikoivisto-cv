@@ -334,6 +334,32 @@
         <div class="space-y-4 pl-[1.5px]">
           <div>
             <a
+              href="https://github.com/koodilauri/yatzy-helper"
+              class="font-medium text-blue-600 hover:underline">Yatzy Helper</a
+            >
+            — Android companion app for Scandinavian Yatzy that solves the game exactly: dynamic
+            programming over all 2M game states gives optimal keep-and-reroll advice on every throw.
+            Kotlin, Jetpack Compose, multi-module Gradle
+            <a
+              href="https://github.com/koodilauri/yatzy-helper"
+              class="font-semibold hover:underline">https://github.com/koodilauri/yatzy-helper</a
+            >
+          </div>
+          <div>
+            <a
+              href="https://github.com/koodilauri/life-counter"
+              class="font-medium text-blue-600 hover:underline">Life Counter</a
+            >
+            — Two-player TCG life counter for Android, with a grouped history log, round timer, and
+            an offline-first rules reference that self-updates from the official rules documents.
+            Kotlin, Jetpack Compose, StateFlow, coroutines
+            <a
+              href="https://github.com/koodilauri/life-counter"
+              class="font-semibold hover:underline">https://github.com/koodilauri/life-counter</a
+            >
+          </div>
+          <div>
+            <a
               href="https://github.com/koodilauri/FVTT-setup"
               class="font-medium text-blue-600 hover:underline">FVTT Setup</a
             >
